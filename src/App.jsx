@@ -99,7 +99,6 @@ export default function App() {
     teamName: "TeamD"
   }])
 
-
   useEffect(() => {
 
     localStorage.setItem('employeeList', JSON.stringify(employees));
@@ -114,20 +113,17 @@ export default function App() {
 
 
   function handleTeamSelectionChange(event) {
-
     setTeam(event.target.value);
   }
-
   function handleEmployeeCardClick(event) {
-    const trensformedEmployees = employees.map((employee) => employee.id ===
-      parseInt(event.currentTarget.id) ? (employee.TeamName === selectedTeam) ? { ...employee, teamName: ' ' } : { ...employee, teamName: selectedTeam } : employee)
+    const transformedEmployees = employees.map((employee) => employee.id === parseInt(event.currentTarget.id)
+      ? (employee.teamName === selectedTeam) ? { ...employee, teamName: '' } : { ...employee, teamName: selectedTeam }
+      : employee);
+    setEmployees(transformedEmployees);
 
-    setEmployees(trensformedEmployees);
   }
 
-
-
- return (
+  return (
     <Router>
       <Nav />
       <Header selectedTeam={selectedTeam}
