@@ -5,8 +5,9 @@
 
 # just a sample 
 
-![alt text](/public/readme-images/imagesReact+TypeScript+Replit-51.jpg)
-![alt text](/public/images/shopping%20WOrld!%20-%20Google%20Chrome%2010_10_2022%2013_03_39.jpg.png)
+![alt text](./public/readme-images/React+TypeScript+Replit-1.jpg)
+![alt text](./public/readme-images/React+TypeScript+Replit-2.jpg)
+![alt text](./public/readme-images/React-TypeScript+Replit-3.jpg)
 
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
