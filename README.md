@@ -1,5 +1,14 @@
 ## Running React on Repl.it
 
+
+
+
+# just a sample 
+
+![alt text](/public/readme-images/imagesReact+TypeScript+Replit-51.jpg)
+![alt text](/public/images/shopping%20WOrld!%20-%20Google%20Chrome%2010_10_2022%2013_03_39.jpg.png)
+
+
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
 
 [Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
